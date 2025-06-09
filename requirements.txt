@@ -1,0 +1,10 @@
+requests
+pandas
+os
+datetime 
+upload_to_postgres 
+send_email 
+send_email 
+dotenv 
+yagmail
+psycopg2

@@ -1,0 +1,21 @@
+city,temperature,humidity,pressure,weather_description,rain_1h,cloudiness,wind_speed,timestamp
+Munich,283.82,88,1023,clear sky,0,7,1.94,2025-06-10 00:13:19
+Mitte,284.25,84,1021,clear sky,0,0,2.06,2025-06-10 00:13:19
+Neustadt,285.35,93,1019,few clouds,0,20,1.54,2025-06-10 00:13:19
+Frankfurt am Main,287.77,76,1022,clear sky,0,0,1.54,2025-06-10 00:13:19
+Altstadt Nord,286.76,82,1021,overcast clouds,0,96,1.96,2025-06-10 00:13:20
+Stadtkreis Stuttgart,285.9,80,1023,clear sky,0,0,0.51,2025-06-10 00:13:20
+Düsseldorf,286.78,81,1020,clear sky,0,0,1.34,2025-06-10 00:13:20
+Leipzig,285.64,76,1022,clear sky,0,0,2.06,2025-06-10 00:13:20
+Dresden,283.86,83,1022,clear sky,0,0,3.13,2025-06-10 00:13:20
+Nuremberg,284.0,78,1023,clear sky,0,0,2.57,2025-06-10 00:13:20
+Hanover,286.01,91,1020,clear sky,0,0,0.51,2025-06-10 00:13:20
+Bremen,285.11,95,1019,clear sky,0,0,1.54,2025-06-10 00:13:20
+Essen,286.05,82,1021,broken clouds,0,64,2.26,2025-06-10 00:13:20
+Dortmund,285.3,80,1021,scattered clouds,0,44,3.09,2025-06-10 00:13:20
+Bochum,285.66,82,1021,scattered clouds,0,45,2.24,2025-06-10 00:13:20
+Westen,285.6,81,1021,scattered clouds,0,42,2.04,2025-06-10 00:13:20
+Bonn,285.88,79,1020,clear sky,0,0,1.03,2025-06-10 00:13:20
+Mannheim,287.7,73,1022,overcast clouds,0,90,1.03,2025-06-10 00:13:20
+Karlsruhe,286.99,76,1021,scattered clouds,0,31,1.48,2025-06-10 00:13:20
+Augsburg,284.42,82,1023,clear sky,0,9,0.51,2025-06-10 00:13:21
