@@ -25,7 +25,7 @@ weather_etl/
 
 Create a virtual environment and install the required packages:
 
-```bash
+
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ python-dotenv
 smtplib
 
 
-🔐 Environment Variables
+## 🔐 Environment Variables
 Create a .env file with the following contents:
 
 WEATHER_API_KEY=your_openweather_api_key
@@ -53,7 +53,7 @@ DB_PASSWORD=your_postgres_password
 DB_PORT=5432
 
 
-⚙️ How It Works
+## ⚙️ How It Works
 
 weather_etl.py
 Calls weather API to fetch data for German cities
@@ -76,7 +76,7 @@ Batch file to run the entire ETL process
 
 Used with Windows Task Scheduler for automation
 
-🗃️ PostgreSQL Table Schema
+## 🗃️ PostgreSQL Table Schema
 CREATE TABLE weather_data (
     id SERIAL PRIMARY KEY,
     city VARCHAR(100),
@@ -88,8 +88,25 @@ CREATE TABLE weather_data (
 );
 
 
-📅 Task Scheduling (Windows)
-To automate your ETL process:
+## 📅 Task Scheduling (Windows)
+
+## --Windows Task Scheduler Setup
+Open Task Scheduler on Windows.
+
+Create a new task:
+
+Trigger: Daily or Hourly
+
+Action: Run a .bat file like:
+
+
+@echo off
+cd path\to\weather_etl
+call venv\Scripts\activate
+python main.py
+
+
+## --To automate your ETL process:
 
 Open Task Scheduler on Windows
 
@@ -105,13 +122,13 @@ Browse and select run_weather_etl.bat
 
 This will run your ETL pipeline automatically based on the chosen schedule.
 
-📤 Sample Email Alert
+## 📤 Sample Email Alert
 You will receive an email alert like this when conditions are met:
 
 Subject: ⚠️ Weather Alert
 Body: Extreme temperature detected in Munich: 39°C. Take precautions.
 
-🚀 Manual Run
+## 🚀 Manual Run
 To manually execute the full pipeline:
 
 
@@ -120,11 +137,12 @@ python upload_to_postgres.py
 python send_email.py
 
 Or
-run the batch file:
+
+## run the batch file:
 run_weather_etl.bat
 
 
-📌 Author
+## 📌 Author
 Tanmay Khairnar
 Backend Developer → Data Analyst
 LinkedIn | GitHub
